@@ -1,6 +1,6 @@
 
 import Editor from 'ckeditor5-custom-build/build/ckeditor';
-import { CKEditor } from '@ckeditor/ckeditor5-react'
+import { CKEditor } from '@ckeditor/ckeditor5-react';
 import { useState } from 'react';
 
 
@@ -77,7 +77,7 @@ const editorConfiguration = {
 
 function App() {
 
-  const [html, setHtml] = useState('') 
+  const [html, setHtml] = useState('');
 
   const uploadImageToServerFromCKEditor = async (file) => {
     let image_url_cloud_uploaded = ''
