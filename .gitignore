@@ -1,16 +1,16 @@
 # dependencies
-/BE/node_modules
-/fe/node_modules
+/server/node_modules
+/client/node_modules
 .pnp
 .pnp
 .pnp.js
 .pnp.js
 
 # testing
-/fe/coverage
+/client/coverage
 
 # production
-/fe/build
+/client/build
 
 # misc
 .DS_Store
